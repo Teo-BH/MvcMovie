@@ -29,6 +29,12 @@ namespace MvcMovie
             {
                 c.SwaggerDoc("v1", new Info { Title = "MVC Movie API", Version = "v1" });
             });
+
+            services.AddDistributedRedisCache(options =>
+            {
+                options.Configuration = Configuration.GetConnectionString("RedisConnection");
+                options.InstanceName = "MvcMovieRedisInstance";
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

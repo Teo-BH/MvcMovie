@@ -12656,7 +12656,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "/Users/teobaldo/Documents/MvcMovie/MvcMovie.csproj",
-      "projectName": "MvcMovie",
+      "projectName": "aspnetapp",
       "projectPath": "/Users/teobaldo/Documents/MvcMovie/MvcMovie.csproj",
       "packagesPath": "/Users/teobaldo/.nuget/packages/",
       "outputPath": "/Users/teobaldo/Documents/MvcMovie/obj/",
